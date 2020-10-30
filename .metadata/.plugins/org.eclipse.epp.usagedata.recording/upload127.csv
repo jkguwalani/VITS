@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jst.jsp.ui,1.1.310.v200809120122,org.eclipse.jst.jsp.core.jspsource.source,1456646753082
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456646777277
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456646779605
+activated,view,org.eclipse.ui.navigator.resources,3.3.101.M20080910-0800,org.eclipse.ui.navigator.ProjectExplorer,1456646847940
+opened,editor,org.eclipse.jst.jsp.ui,1.1.310.v200809120122,org.eclipse.jst.jsp.core.jspsource.source,1456646848174
+activated,editor,org.eclipse.jst.jsp.ui,1.1.310.v200809120122,org.eclipse.jst.jsp.core.jspsource.source,1456646848221
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456647208325
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456647475636
+started,bundle,org.eclipse.mylyn.ide.ant,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.ide.ant,1456647477558
+started,bundle,org.eclipse.mylyn.java.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.java.ui,1456647477573
+started,bundle,org.eclipse.mylyn.pde.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.pde.ui,1456647477589
+started,bundle,org.eclipse.mylyn.resources.ui,3.0.2.v20080918-1100-e3x,org.eclipse.mylyn.resources.ui,1456647477589
+closed,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456647477839

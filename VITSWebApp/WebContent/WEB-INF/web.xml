@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<display-name>VITSWebApp</display-name>
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/VITSError_404.jsp</location>
+	</error-page>
+
+	<error-page>
+		<error-code>500</error-code>
+		<location>/VITSError_500.jsp</location>
+	</error-page>
+
+	<servlet>
+		<display-name>Login to VITS Application</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>servlet.LogonServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Load Commonly Used Functionalities</display-name>
+		<servlet-name>LoadDefaults</servlet-name>
+		<servlet-class>servlet.LoadDefaults</servlet-class>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet>
+		<display-name>FunctionCall</display-name>
+		<servlet-name>FunctionCall</servlet-name>
+		<servlet-class>servlet.FunctionalityServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Register Scheme</display-name>
+		<servlet-name>SchemeServlet</servlet-name>
+		<servlet-class>servlet.SchemeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Register Company</display-name>
+		<servlet-name>CompanyServlet</servlet-name>
+		<servlet-class>servlet.CompanyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Register Agent</display-name>
+		<servlet-name>AgentServlet</servlet-name>
+		<servlet-class>servlet.AgentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Register Policy</display-name>
+		<servlet-name>PolicyServlet</servlet-name>
+		<servlet-class>servlet.PolicyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Register User</display-name>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>View Agent</display-name>
+		<servlet-name>ViewAgentServlet</servlet-name>
+		<servlet-class>servlet.ViewAgentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>View Policy</display-name>
+		<servlet-name>ViewPolicyServlet</servlet-name>
+		<servlet-class>servlet.ViewPolicyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>View Company</display-name>
+		<servlet-name>ViewCompanyServlet</servlet-name>
+		<servlet-class>servlet.ViewCompanyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>View Scheme</display-name>
+		<servlet-name>ViewSchemeServlet</servlet-name>
+		<servlet-class>servlet.ViewSchemeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>View User</display-name>
+		<servlet-name>ViewUserServlet</servlet-name>
+		<servlet-class>servlet.ViewUserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>LogoutServlet</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>servlet.LogoutServlet</servlet-class>
+	</servlet>	
+	<servlet>
+		<display-name>Delete User</display-name>
+		<servlet-name>DeleteUserServlet</servlet-name>
+		<servlet-class>servlet.DeleteUserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>Delete User Action</display-name>
+		<servlet-name>DeleteUserAction</servlet-name>
+		<servlet-class>servlet.DeleteUserActionServlet</servlet-class>
+	</servlet>	
+	
+	
+	<servlet-mapping>
+		<servlet-name>LoadDefaults</servlet-name>
+		<url-pattern>/LoadDefaults</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>FunctionCall</servlet-name>
+		<url-pattern>/FunctionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SchemeServlet</servlet-name>
+		<url-pattern>/Scheme</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CompanyServlet</servlet-name>
+		<url-pattern>/Company</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AgentServlet</servlet-name>
+		<url-pattern>/Agent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PolicyServlet</servlet-name>
+		<url-pattern>/Policy</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/User</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>ViewAgentServlet</servlet-name>
+		<url-pattern>/ViewAgent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewCompanyServlet</servlet-name>
+		<url-pattern>/ViewCompany</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewPolicyServlet</servlet-name>
+		<url-pattern>/ViewPolicy</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewSchemeServlet</servlet-name>
+		<url-pattern>/ViewScheme</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewUserServlet</servlet-name>
+		<url-pattern>/ViewUser</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteUserServlet</servlet-name>
+		<url-pattern>/DeleteUser</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteUserAction</servlet-name>
+		<url-pattern>/DeleteUserAction</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>	
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

@@ -1,0 +1,155 @@
+!SESSION 2016-03-05 00:34:52.919 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+This is a continuation of log file E:\VITS\.metadata\.bak_4.log
+Created Time: 2016-03-05 01:56:07.409
+
+!ENTRY org.eclipse.ui.workbench 2 0 2016-03-05 01:56:07.425
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2016-03-05 01:56:07.425
+!MESSAGE Conflict for 'org.eclipse.wst.jsdt.ui.edit.text.java.open.editor':
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@1e4c806),
+	expression=AndExpression(org.eclipse.ui.SubActionBars$1@c194ad,ActivePartExpression(org.eclipse.ui.navigator.CommonNavigator@f0a6e8),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@44ffb2)),sourcePriority=1064961)
+HandlerActivation(commandId=org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,
+	handler=ActionHandler(org.eclipse.wst.jsdt.ui.actions.OpenAction@1e4c806),
+	expression=AndExpression(org.eclipse.ui.SubActionBars$1@c194ad,ActivePartExpression(org.eclipse.ui.navigator.CommonNavigator@f0a6e8),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@44ffb2)),sourcePriority=1064961)
+!SESSION 2016-03-06 18:31:10.988 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.wst.validation 4 0 2016-03-06 18:32:14.411
+!MESSAGE Validator JSP Content Validator finished validating: file:/E:/VITS/VITSWebApp/WebContent/links.jsp
+
+!ENTRY org.eclipse.wst.validation 4 0 2016-03-06 18:32:14.458
+!MESSAGE 
+!STACK 0
+java.util.ConcurrentModificationException
+	at org.eclipse.emf.common.util.BasicEList$EIterator.checkModCount(BasicEList.java:1378)
+	at org.eclipse.emf.common.util.BasicEList$EIterator.doNext(BasicEList.java:1326)
+	at org.eclipse.emf.common.util.BasicEList$EIterator.next(BasicEList.java:1312)
+	at org.eclipse.emf.common.notify.impl.AdapterFactoryImpl.adapt(AdapterFactoryImpl.java:86)
+	at org.eclipse.wst.dtd.core.internal.contentmodel.DTDImpl$DTDAdapterFactoryImpl.adapt(DTDImpl.java:139)
+	at org.eclipse.wst.dtd.core.internal.contentmodel.DTDImpl.getAdapter(DTDImpl.java:97)
+	at org.eclipse.wst.dtd.core.internal.contentmodel.DTDImpl$DTDFileAdapter.getElements(DTDImpl.java:661)
+	at org.eclipse.wst.html.core.internal.modelquery.CMDocumentForBuddySystem.getElements(CMDocumentForBuddySystem.java:90)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.SimpleAssociationProvider.getCMElementDeclaration(SimpleAssociationProvider.java:45)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.ModelQueryImpl.getCMElementDeclaration(ModelQueryImpl.java:116)
+	at org.eclipse.wst.html.core.internal.modelquery.HTMLModelQueryImpl.getCMElementDeclaration(HTMLModelQueryImpl.java:149)
+	at org.eclipse.jst.jsp.core.internal.modelquery.JSPModelQueryImpl.getCMElementDeclaration(JSPModelQueryImpl.java:53)
+	at org.eclipse.wst.html.core.internal.validate.CMUtil.getDeclaration(CMUtil.java:47)
+	at org.eclipse.wst.html.core.internal.validate.HTMLAttributeValidator.validate(HTMLAttributeValidator.java:94)
+	at org.eclipse.wst.html.core.internal.validate.CompositeValidator.validate(CompositeValidator.java:54)
+	at org.eclipse.wst.xml.core.internal.validate.AbstractPropagatingValidator.validate(AbstractPropagatingValidator.java:38)
+	at org.eclipse.wst.xml.core.internal.validate.AbstractPropagatingValidator.propagateToChildElements(AbstractPropagatingValidator.java:60)
+	at org.eclipse.wst.xml.core.internal.validate.AbstractPropagatingValidator.validate(AbstractPropagatingValidator.java:40)
+	at org.eclipse.wst.html.core.internal.validate.DocumentPropagatingValidator.validate(DocumentPropagatingValidator.java:32)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPContentValidator.validate(JSPContentValidator.java:72)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPContentValidator.validateFile(JSPContentValidator.java:82)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPValidator.validate(JSPValidator.java:249)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1025)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:578)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:542)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:655)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:546)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.visit(ValBuilderJob.java:202)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:68)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:79)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:180)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:149)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:125)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2016-03-06 18:34:10.270
+!MESSAGE Marker id 8450 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 8450 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:56)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:97)
+	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:297)
+	at org.eclipse.wst.validation.internal.TaskListUtility.getValidationTasks(TaskListUtility.java:333)
+	at org.eclipse.wst.validation.internal.TaskListUtility.removeTaskSubset(TaskListUtility.java:426)
+	at org.eclipse.wst.validation.internal.TaskListUtility.removeTaskSubset(TaskListUtility.java:414)
+	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeMessageSubset(WorkbenchReporter.java:184)
+	at org.eclipse.wst.validation.internal.operations.WorkbenchReporter.removeMessageSubset(WorkbenchReporter.java:179)
+	at org.eclipse.wst.validation.internal.InternalValidatorManager.removeOperationTasks(InternalValidatorManager.java:99)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.removeOldMessages(ValidationOperation.java:1016)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.launchJobs(ValidationOperation.java:1305)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.validate(ValidationOperation.java:795)
+	at org.eclipse.wst.validation.internal.operations.ValidationOperation.run(ValidationOperation.java:614)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.performFullBuild(ValidationBuilder.java:209)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.performFullBuild(ValidationBuilder.java:201)
+	at org.eclipse.wst.validation.internal.operations.ValidationBuilder.build(ValidationBuilder.java:162)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:633)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:170)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:201)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:253)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:309)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:341)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:140)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:238)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2016-03-06 18:34:10.270
+!MESSAGE Marker id 8450 not found.
+!SESSION 2016-03-14 14:17:25.405 -----------------------------------------------
+eclipse.buildId=M20080911-1700
+java.version=1.6.0_16
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 4 2 2016-03-14 14:17:37.664
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 1
+org.eclipse.ui.WorkbenchException: Content is not allowed in prolog.
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:121)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:64)
+	at org.eclipse.ui.internal.Workbench$48.run(Workbench.java:1872)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:1867)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+Caused by: org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:94)
+	... 6 more
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-03-14 14:17:37.664
+!MESSAGE Content is not allowed in prolog.
+!STACK 0
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:94)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:64)
+	at org.eclipse.ui.internal.Workbench$48.run(Workbench.java:1872)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:1867)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-03-14 14:17:37.664
+!MESSAGE Content is not allowed in prolog.
+!STACK 0
+org.xml.sax.SAXParseException: Content is not allowed in prolog.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:94)
+	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:64)
+	at org.eclipse.ui.internal.Workbench$48.run(Workbench.java:1872)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:1867)
+	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
+	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)

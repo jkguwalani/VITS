@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335361510
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1456335362572
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1456335367192
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335374119
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335378619
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335383995
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335396309
+started,bundle,org.eclipse.ltk.core.refactoring,3.4.1.r341_v20080716-0800,org.eclipse.ltk.core.refactoring,1456335397543
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335441492
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335445601
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1456335448023
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335458446
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335460071
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335465868
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335470850
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335473038
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335476507
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1456335480197
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335481900
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335483807
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335488963
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335491995
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335494354
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456335498482
+executed,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.paste,1456335502404

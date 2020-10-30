@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.server.ui,1.1.2.v20080916,org.eclipse.wst.server.ui,1456336660448
+started,bundle,org.eclipse.wst.sse.core,1.1.302.v200808260045,org.eclipse.wst.sse.core,1456336660463
+started,bundle,org.eclipse.wst.sse.ui,1.1.2.v200809120159,org.eclipse.wst.sse.ui,1456336660479
+started,bundle,org.eclipse.wst.validation,1.2.2.v200809050219,org.eclipse.wst.validation,1456336660479
+started,bundle,org.eclipse.wst.web,1.1.204.v200809132300,org.eclipse.wst.web,1456336660479
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.2.v200809031518,org.eclipse.wst.ws.service.policy.ui,1456336660479
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.302.v200807240215,org.eclipse.wst.wsdl.validation,1456336660479
+started,bundle,org.eclipse.wst.wsi.ui,1.0.400.v200805140300,org.eclipse.wst.wsi.ui,1456336660479
+started,bundle,org.eclipse.wst.xml.core,1.1.305.v200809120354,org.eclipse.wst.xml.core,1456336660495
+started,bundle,org.eclipse.wst.xml.ui,1.0.410.v200809120143,org.eclipse.wst.xml.ui,1456336660495
+started,bundle,org.eclipse.wst.xsd.core,1.1.301.v200807240448,org.eclipse.wst.xsd.core,1456336660495
+started,bundle,org.eclipse.jdt.apt.core,3.3.101.R34x_v20080902-1220,org.eclipse.jdt.apt.core,1456336661104
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.100.v20080407-1345,org.eclipse.jdt.apt.pluggable.core,1456336661120
+activated,view,org.eclipse.ui.navigator.resources,3.3.101.M20080910-0800,org.eclipse.ui.navigator.ProjectExplorer,1456336661463
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.200.v200805221400,org.eclipse.wst.common.frameworks.ui,1456336662385
+started,bundle,org.eclipse.core.variables,3.2.100.v20080529-1300,org.eclipse.core.variables,1456336662417
+started,bundle,org.eclipse.jst.servlet.ui,1.1.202.v200809102205,org.eclipse.jst.servlet.ui,1456336662432
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456336676786
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456336699586
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456336712479
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456336726746
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.file.refresh,1456336733543
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456336740613
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456336743582
+executed,command,org.eclipse.ui.ide,3.4.1.M20080903-2000,org.eclipse.ui.project.cleanAction,1456336743613

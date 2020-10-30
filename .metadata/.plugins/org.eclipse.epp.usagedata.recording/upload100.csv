@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456477989038
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480592972
+opened,view,org.eclipse.wst.server.ui,1.1.2.v20080916,org.eclipse.wst.server.ui.ServersView,1456480597691
+activated,view,org.eclipse.wst.server.ui,1.1.2.v20080916,org.eclipse.wst.server.ui.ServersView,1456480597832
+executed,command,org.eclipse.wst.server.ui,1.1.2.v20080916,org.eclipse.wst.server.run,1456480605098
+started,bundle,org.eclipse.jdt.debug,3.4.0.v20080604,org.eclipse.jdt.debug,1456480606051
+started,bundle,org.eclipse.jdt.debug.ui,3.3.1.v20080730_r341,org.eclipse.jdt.debug.ui,1456480610379
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1456480612766
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480614453
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480615499
+activated,view,org.eclipse.wst.server.ui,1.1.2.v20080916,org.eclipse.wst.server.ui.ServersView,1456480615546
+activated,view,org.eclipse.ui.console,3.3.0.v20080529-1300,org.eclipse.ui.console.ConsoleView,1456480617874
+activated,view,org.eclipse.ui.navigator.resources,3.3.101.M20080910-0800,org.eclipse.ui.navigator.ProjectExplorer,1456480627681
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.200.v200805221400,org.eclipse.wst.common.frameworks.ui,1456480628181
+started,bundle,org.eclipse.jst.servlet.ui,1.1.202.v200809102205,org.eclipse.jst.servlet.ui,1456480628243
+activated,editor,org.eclipse.wst.html.ui,1.0.301.v200809120137,org.eclipse.wst.html.core.htmlsource.source,1456480643650
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480645634
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480893093
+activated,view,org.eclipse.ui.views,3.3.0.I20080509-2000,org.eclipse.ui.views.ContentOutline,1456480896452
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480929621
+activated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480950387
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.findReplace,1456480951481
+no handler,command,org.eclipse.ui,3.4.1.M20080910-0800,org.eclipse.ui.edit.findReplace,1456480955748
+activated,editor,org.eclipse.wst.html.ui,1.0.301.v200809120137,org.eclipse.wst.html.core.htmlsource.source,1456480959333
+deactivated,workbench,org.eclipse.ui.workbench,3.4.1.M20080827-0800a,,1456480960880
